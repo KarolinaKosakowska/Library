@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "e071b1a7c9d575b1b3d9ba6c9a1be1d9c6701ca2"
+    "signature": "eafe674d183949ad47e54b95bd5e56de722416f1"
   },
   "compilationOptions": {
     "defines": [
@@ -24,8 +24,12 @@
     ".NETCoreApp,Version=v2.1": {
       "Library/1.0.0": {
         "dependencies": {
+          "GitHub": "1.13.2",
+          "LibraryData": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0"
         },
         "runtime": {
@@ -33,6 +37,99 @@
         },
         "compile": {
           "Library.dll": {}
+        }
+      },
+      "Carbon.Data.Protection/0.20.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/Carbon.Data.Protection.dll": {
+            "assemblyVersion": "0.20.0.0",
+            "fileVersion": "0.20.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/Carbon.Data.Protection.dll": {}
+        }
+      },
+      "Carbon.Json/1.9.0": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Json.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.Json.dll": {}
+        }
+      },
+      "Carbon.Packaging/1.29.1": {
+        "dependencies": {
+          "Carbon.Data.Protection": "0.20.0",
+          "Carbon.Json": "1.9.0",
+          "Carbon.Storage": "1.17.0",
+          "Carbon.Versioning": "1.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Packaging.dll": {
+            "assemblyVersion": "1.29.1.0",
+            "fileVersion": "1.29.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.Packaging.dll": {}
+        }
+      },
+      "Carbon.Storage/1.17.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/Carbon.Storage.dll": {
+            "assemblyVersion": "1.17.0.0",
+            "fileVersion": "1.17.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/Carbon.Storage.dll": {}
+        }
+      },
+      "Carbon.VersionControl/1.9.0": {
+        "dependencies": {
+          "Carbon.Storage": "1.17.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.VersionControl.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.VersionControl.dll": {}
+        }
+      },
+      "Carbon.Versioning/1.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Versioning.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.Versioning.dll": {}
+        }
+      },
+      "GitHub/1.13.2": {
+        "dependencies": {
+          "Carbon.Packaging": "1.29.1",
+          "Carbon.VersionControl": "1.9.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GitHub.dll": {
+            "assemblyVersion": "1.13.2.0",
+            "fileVersion": "1.13.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/GitHub.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
@@ -205,6 +302,18 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0"
+        }
+      },
+      "LibraryData/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
+        },
+        "runtime": {
+          "LibraryData.dll": {}
+        },
+        "compile": {
+          "LibraryData.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3155,6 +3264,55 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Carbon.Data.Protection/0.20.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TLBFPSZYNYP/Xz7KXOdV5svvOlW5XYHjp8+prAtf6qkg+kar/UXWq0UDPk7KQiMpDyfnPCytUcLDybI72pHLpA==",
+      "path": "carbon.data.protection/0.20.0",
+      "hashPath": "carbon.data.protection.0.20.0.nupkg.sha512"
+    },
+    "Carbon.Json/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DUkE1HfPwDpXI+7KsemHHK+EhtS08llue3SQDkVZkzCmX8SJiMv1vpHi5p7HbjkDZfb28J+aPsNOlBRE016RYA==",
+      "path": "carbon.json/1.9.0",
+      "hashPath": "carbon.json.1.9.0.nupkg.sha512"
+    },
+    "Carbon.Packaging/1.29.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rfbsh3oxUBHMSVH871cy0h1MmwDjEhvMcCPahtqiB0oNbYeyOM9lMt81yYdB8wamcld5NTZBCZ9KJ8OsXoCFYQ==",
+      "path": "carbon.packaging/1.29.1",
+      "hashPath": "carbon.packaging.1.29.1.nupkg.sha512"
+    },
+    "Carbon.Storage/1.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LCfJIoCfLHPPp44VWlPTIVHaehTKeFFeUaG5eyvyxCOApsRPattOM/rV4hSdtu7aGLb3QEG/2fGZ46wUOVfGeQ==",
+      "path": "carbon.storage/1.17.0",
+      "hashPath": "carbon.storage.1.17.0.nupkg.sha512"
+    },
+    "Carbon.VersionControl/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2KjSkUee/L/lob3lAdjFP0xOV3pZnPyFMRVp69guwZxLgqj3Iq1K0Q2Q5BsMtJbzAKd5fu2sIWxm8xS0fr2JMw==",
+      "path": "carbon.versioncontrol/1.9.0",
+      "hashPath": "carbon.versioncontrol.1.9.0.nupkg.sha512"
+    },
+    "Carbon.Versioning/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HFGazVtopezeLdOcHjuGpiXOtEABluJmo4G4gTHIjkwmj5fLpcgFqqYzrlcOPOksQEiM1aapLTp+yFWQ6Y8qcQ==",
+      "path": "carbon.versioning/1.5.0",
+      "hashPath": "carbon.versioning.1.5.0.nupkg.sha512"
+    },
+    "GitHub/1.13.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fH5Cg4vuigeUYrvmJuXuCIGpIqGgVEGLUdzYpRy9yTZBpxFs7EypxiTF6IzcitGBk5f6jt6+kAi3b9XX6UkBVw==",
+      "path": "github/1.13.2",
+      "hashPath": "github.1.13.2.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",
       "serviceable": true,
@@ -3210,6 +3368,11 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "LibraryData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

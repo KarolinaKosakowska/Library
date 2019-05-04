@@ -4,14 +4,14 @@
     "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\Library\\Library.csproj": {
+    "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\LibraryData\\LibraryData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\Library\\Library.csproj",
-        "projectName": "Library",
-        "projectPath": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\LibraryData\\LibraryData.csproj",
+        "projectName": "LibraryData",
+        "projectPath": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\LibraryData\\LibraryData.csproj",
         "packagesPath": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\Library\\obj\\",
+        "outputPath": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\LibraryData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,76 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\Library\\Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\Library\\Library.csproj",
+        "projectName": "Library",
+        "projectPath": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP.LAPTOP-9OCPGB0M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\LibraryData\\LibraryData.csproj": {
+                "projectPath": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\LibraryData\\LibraryData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
             "GitHub": {
               "target": "Package",
               "version": "[1.13.2, )"
@@ -55,6 +125,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
             },
             "Microsoft.NETCore.App": {
               "target": "Package",

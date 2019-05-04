@@ -1,0 +1,11 @@
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\bin\Debug\netcoreapp2.1\LibraryData.deps.json
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\bin\Debug\netcoreapp2.1\LibraryData.dll
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\obj\Debug\netcoreapp2.1\LibraryData.csproj.CoreCompileInputs.cache
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\obj\Debug\netcoreapp2.1\LibraryData.AssemblyInfoInputs.cache
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\obj\Debug\netcoreapp2.1\LibraryData.AssemblyInfo.cs
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\obj\Debug\netcoreapp2.1\LibraryData.csprojAssemblyReference.cache
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\bin\Debug\netcoreapp2.1\LibraryData.runtimeconfig.json
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\bin\Debug\netcoreapp2.1\LibraryData.runtimeconfig.dev.json
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\bin\Debug\netcoreapp2.1\LibraryData.pdb
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\obj\Debug\netcoreapp2.1\LibraryData.dll
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\LibraryData\obj\Debug\netcoreapp2.1\LibraryData.pdb

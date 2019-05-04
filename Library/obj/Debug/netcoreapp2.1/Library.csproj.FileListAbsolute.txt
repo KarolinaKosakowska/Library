@@ -23,3 +23,12 @@ C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Librar
 C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\obj\Debug\netcoreapp2.1\Library.RazorTargetAssemblyInfo.cache
 C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\obj\Debug\netcoreapp2.1\Library.RazorTargetAssemblyInfo.cs
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\bin\Debug\netcoreapp2.1\Library.pdb
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\bin\Debug\netcoreapp2.1\Library.Views.dll
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\bin\Debug\netcoreapp2.1\Library.Views.pdb
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\bin\Debug\netcoreapp2.1\LibraryData.dll
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\bin\Debug\netcoreapp2.1\LibraryData.pdb
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\obj\Debug\netcoreapp2.1\Library.Views.pdb
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\obj\Debug\netcoreapp2.1\Library.csproj.CopyComplete
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\obj\Debug\netcoreapp2.1\Library.dll
+C:\Users\HP.LAPTOP-9OCPGB0M\Desktop\Kurs C#\REPOZYTORIA\Initial_Exercises\Library\Library\obj\Debug\netcoreapp2.1\Library.pdb

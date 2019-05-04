@@ -4412,6 +4412,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "LibraryData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/LibraryData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryData.dll": {}
+        }
       }
     }
   },
@@ -11950,13 +11964,21 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "LibraryData/1.0.0": {
+      "type": "project",
+      "path": "../LibraryData/LibraryData.csproj",
+      "msbuildProject": "../LibraryData/LibraryData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "GitHub >= 1.13.2",
+      "LibraryData >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
+      "Microsoft.EntityFrameworkCore >= 2.1.1",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -11989,7 +12011,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\LibraryData\\LibraryData.csproj": {
+              "projectPath": "C:\\Users\\HP.LAPTOP-9OCPGB0M\\Desktop\\Kurs C#\\REPOZYTORIA\\Initial_Exercises\\Library\\LibraryData\\LibraryData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -12015,6 +12041,14 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.2, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
