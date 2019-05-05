@@ -5,13 +5,11 @@ using System.Text;
 
 namespace LibraryData.Models
 {
-    public class Status
+    public class Hold
     {
         public int Id { get; set; }
-        [Required]
-        public string Name { get; set; }
-        [Required]
-        public string Description { get; set; }
-
+        public virtual LibraryAsset LibraryAsset { get; set; }
+        public virtual LibraryCard LibraryCard { get; set; }
+        public DateTime HoldPlace{ get; set; }
     }
 }
