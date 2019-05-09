@@ -1,5 +1,6 @@
 ﻿
 using LibraryData;
+using LibraryServices;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -31,6 +32,8 @@ namespace Library
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddSingleton(Configuration);
+            services.AddScoped<ILibraryAsset, LibraryAssetServices>();
             services.AddDbContext<LibraryContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection"));

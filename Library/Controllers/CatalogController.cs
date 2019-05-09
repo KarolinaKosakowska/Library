@@ -25,11 +25,13 @@ namespace Library.Controllers
                     DeweyCallNumber=assets.GetDeweyIndex(result.Id),
                     Title=result.Title,
                     Type=assets.GetType(result.Id)
-
-
-
-
             } );
-        }
+            var model = new AssetIndexModel()
+            {
+                Assets = listingResult
+            };
+        return View(model);
+
+       }
     }
 }
